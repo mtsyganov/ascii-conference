@@ -4,7 +4,7 @@
   var capturing = false;
 
   var host = window.document.location.host.replace(/:.*/, '');
-  var ws = new WebSocket('ws://' + host + ':8080');
+  var ws = new WebSocket('ws://' + host);
   //ws.binaryType = 'arraybuffer';
   ws.onopen = function() {
     console.log("WebSocket connected");
