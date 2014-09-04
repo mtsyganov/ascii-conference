@@ -1,0 +1,94 @@
+body {    
+  background: white;
+  color: black;
+}
+
+h1 {
+  font-family: 'Helvetica neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: #999;
+  text-align: center;
+  margin: 0;
+}
+
+#notSupported {
+  display: none;
+}
+
+#notSupported h1 {
+  color: #b41a1a;
+  margin-bottom: 20px;
+}
+
+#notSupported img {
+  display: block;
+  margin: 0 auto;
+}
+
+.ascii {
+  font-family: 'Courier New', 'Courier', monospace;
+  font-size: 9px;
+  line-height: 7px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  display: inline-block;
+}
+
+#pause {
+  display: none;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+
+.color_0 {
+  color: #000000;
+}
+.color_1 {
+  color: #0000A8;
+}
+.color_2 {
+  color: #00A800;
+}
+.color_3 {
+  color: #00A8A8;
+}
+.color_4 {
+  color: #A80000;
+}
+.color_5 {
+  color: #A800A8;
+}
+.color_6 {
+  color: #A85400;
+}
+.color_7 {
+  color: #A8A8A8;
+}
+.color_8 {
+  color: #545454;
+}
+.color_9 {
+  color: #5454FE;
+}
+.color_10 {
+  color: #54FE54;
+}
+.color_11 {
+  color: #54FEFE;
+}
+.color_12 {
+  color: #FE5454;
+}
+.color_13 {
+  color: #FE54FE;
+}
+.color_14 {
+  color: #FEFE54;
+}
+.color_15 {
+  color: #FEFEFE;
+}

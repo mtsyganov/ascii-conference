@@ -1,0 +1,32 @@
+{
+  "name": "ascii-conference",
+  "version": "0.0.1",
+  "description": "Fast and Simple html5 video conference over ASCII",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtsyganov/ascii-conference.git"
+  },
+  "keywords": [
+    "ascii",
+    "conference",
+    "video",
+    "webrtc",
+    "websockets",
+    "chatroulett"
+  ],
+  "author": "Michael Tsyganov",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/mtsyganov/ascii-conference/issues"
+  },
+  "homepage": "https://github.com/mtsyganov/ascii-conference",
+  "dependencies": {
+    "express": "^4.8.7",
+    "http": "0.0.0",
+    "ws": "^0.4.32"
+  }
+}

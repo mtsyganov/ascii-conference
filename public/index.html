@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <title>ASCII conference</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+  <h1>Welcome in ASCII conference</h1>
+  <h3 id="info">Please allow this page to access your camera.</h3>
+
+  <div id="notSupported">
+    <h1>Your browser does not support the Camera API.</h1>
+    <img src="images/screenshot.png" align="center" />
+  </div>
+
+  <pre class="ascii color_0" id="screen_0"></pre>
+  <pre class="ascii color_1" id="screen_1"></pre>
+  <pre class="ascii color_2" id="screen_2"></pre>
+  <pre class="ascii color_3" id="screen_3"></pre>
+  <pre class="ascii color_4" id="screen_4"></pre>
+  <pre class="ascii color_5" id="screen_5"></pre>
+
+  <button id="pause">pause / resume</button>
+
+  <a href="https://github.com/mtsyganov/ascii-conference" target="_blank">View on GitHub</a>
+  <a href="http://mtsyganov.github.com/" target="_blank">Made by Michael Tsyganov</a> 
+
+  <script src="js/string-utils.js"></script>
+  <script src="js/camera.js"></script>
+  <script src="js/ascii.js"></script>
+  <script src="js/lz-string.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
