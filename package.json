@@ -19,7 +19,7 @@
     "chatroulett"
   ],
   "author": "Michael Tsyganov",
-  "license": "WTFPL",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mtsyganov/ascii-conference/issues"
   },
