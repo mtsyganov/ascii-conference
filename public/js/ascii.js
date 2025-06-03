@@ -63,6 +63,8 @@ var ascii = (function() {
     return Math.max(interval[0], Math.min(interval[1], value));
   }
 
+  function doNothing() {}
+
   return {
     fromCanvas: function(canvas, options) {
       options = options || {};
