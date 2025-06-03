@@ -34,6 +34,7 @@ wss.on('connection', function(ws) {
 
 wss.resend_ids = function(clients) {
   for (var i in this.clients) {
+    this.clients[i].id = parseInt(i, 10);
     this.clients[i].send(JSON.stringify({type:"id", id: i}));
   }
 }
